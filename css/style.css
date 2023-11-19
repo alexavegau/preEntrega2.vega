@@ -12,47 +12,27 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
-
-.container {
-    background-color: rgb(255, 100, 10);
-    margin-top: 40px;
-    opacity: 0.9;
-   
-}
-
 .logo {
-    width: 90px ;
+    width: 100px ;
 }
 
 .nav{ 
-    background-color: rgb(100, 109, 124);
+    background-color: rgb(255, 255, 255);
     opacity: 0.9;   
     z-index: 1; 
 }
 
 .nav a {
-    color: rgb(4, 4, 131);
+    color: rgb(160, 97, 25);
+    font-size: 1.5rem;
 }
 
 
-
-h1{
-    text-align: center;
-    font-style: bold;
-    color: aliceblue;
-    background-color: rgb(22, 49, 77);
-
-}
 
 .button {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(177, 137, 107);
 }
 
-.imgagenbody{
-
-    width: 300px;
-    
-}
 
 .imagenB{
     width: 600px;
@@ -62,12 +42,29 @@ h1{
 }
    
 .footer{
-    color: aliceblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color: rgb(131, 134, 137);
+    font-style: italic;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+    font-family: 'Courier New', Courier, monospace
+    
+    
     
 }
 
+.footer p{
+    align-content: center;
+  
+   
+}
+
 .imgf{
-    width: 40px;
+    width: 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+  
 
 }
+
