@@ -18,6 +18,7 @@ body{
     color: white;
 }
 
+
 .logo {
     width: 100px ;
 }
@@ -40,6 +41,13 @@ body{
 
 .button {
     background-color: rgb(177, 137, 107);
+    
+}
+
+.button2{
+    background-color: rgb(177, 137, 107);
+    border-radius: 10px;
+    padding: 1%;
 }
 
 
@@ -50,6 +58,14 @@ body{
     padding: 40px ;
     margin-right: 50%;
     
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-size: 2.0rem;
+    font-style: italic;
 }
 
 
@@ -64,13 +80,23 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 40px;
     font-family: 'Courier New', Courier, monospace
-       
+    
+  
 }
 
 .footer p{
     align-content: center;  
 }
+
+.imgbody{
+    padding: 30px;
+}
+
+
+
+
 
 .imgf{
     width: 30px;
@@ -82,4 +108,7 @@ body{
     width: 600px;
     margin: 0 auto;
     padding: 50px;
+    font-size: 1.5rem;
 }
+
+
