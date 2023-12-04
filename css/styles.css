@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/fondo2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Indie Flower", cursive;
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+
+header nav {
+  background-color: rgb(255, 255, 255);
+  opacity: 0.9;
+  z-index: 1;
+  font-family: "Indie Flower", cursive;
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+header nav .logo {
+  width: 100px;
+}
+header nav .button {
+  background-color: rgb(177, 137, 107);
+}
+header nav a {
+  color: rgb(160, 97, 25);
+  font-size: 1.5rem;
+}
+
+main .h1titulo {
+  font-size: 6vw;
+  text-align: start;
+  padding: 40px;
+  margin-right: 50%;
+}
+main .slogan {
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: bold;
+  margin-top: 80px;
+  color: rgb(131, 134, 137);
+}
+
+main h1 {
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  font-size: 2rem;
+  font-style: italic;
+}
+main .imgbody {
+  padding: 30px;
+}
+main .border {
+  background-color: rgb(100, 101, 101);
+}
+
+main .form {
+  width: 600px;
+  margin: 0 auto;
+  padding: 50px;
+  font-size: 1.5rem;
+}
+main .form .button2 {
+  background-color: rgb(177, 137, 107);
+  border-radius: 10px;
+  padding: 1%;
+}
+
+main {
+  margin: 0 auto;
+  padding: 40px;
+}
+main .row .col-6 mx-auto {
+  background: white;
+  color: black;
+}
+main .row .col-6 mx-auto h2 {
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  font-size: 2rem;
+  font-style: italic;
+}
+main .row .col-6 {
+  width: 600px;
+  opacity: 1.9;
+}
+
+main .roll {
+  width: 70vw;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+footer {
+  color: rgb(131, 134, 137);
+  font-style: italic;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 60px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/*# sourceMappingURL=styles.css.map */
