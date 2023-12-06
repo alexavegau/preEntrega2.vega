@@ -100,14 +100,4 @@ main .roll {
   padding: 50px;
 }
 
-footer {
-  color: rgb(131, 134, 137);
-  font-style: italic;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 60px;
-  font-family: "Courier New", Courier, monospace;
-}
-
 /*# sourceMappingURL=styles.css.map */
