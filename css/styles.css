@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Oswald:wght@700&family=Roboto+Slab:wght@100&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,8 +11,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  font-family: "Indie Flower", cursive;
-  font-family: "Roboto Slab", serif;
+  font-family: "Oswald", sans-serif;
   color: white;
 }
 
@@ -34,18 +34,44 @@ header nav a {
   font-size: 1.5rem;
 }
 
-main .h1titulo {
-  font-size: 6vw;
-  text-align: start;
-  padding: 40px;
-  margin-right: 50%;
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .title {
+  font-size: 12vw;
+  font-family: "Oswald", sans-serif;
 }
 main .slogan {
-  text-align: center;
+  justify-content: center;
+}
+main .slogan p {
   font-size: 1.5rem;
-  font-style: bold;
-  margin-top: 80px;
-  color: rgb(131, 134, 137);
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+main .slogan p:hover {
+  color: rgb(255, 255, 255);
+}
+main .slogan p a {
+  text-decoration: none;
+}
+main .container {
+  margin-top: 50px;
+}
+main .container h2 {
+  text-align: center;
+  font-size: 6vw;
+  padding: 20px;
+}
+main .container .cajaindex {
+  display: flex;
+  flex-direction: column;
+}
+main .container .cajaindex img {
+  width: 400px;
+  padding: 5px;
 }
 
 main h1 {
@@ -107,7 +133,6 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   margin-top: 100px;
-  font-family: "Courier New", Courier, monospace;
 }
 footer .foot {
   flex-direction: column;
