@@ -1,0 +1,48 @@
+footer{
+    color: grey;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    margin-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+
+    .foot{
+        flex-direction: column;
+        
+        p{
+            font-size: 1rem;
+            .span1{
+                color: white; 
+
+            }
+            
+
+        }
+        a{
+            img{
+                width: 60px;
+                border-radius: 50%;
+                margin: 10px;
+                &:hover{
+                    width: 50px;
+                    opacity: 0.7;
+                    background-color: white;
+                    border: 5px white solid;
+                    padding: 3px;
+
+                }
+
+            }
+
+        }
+
+
+    }
+    
+    
+   
+
+
+}
